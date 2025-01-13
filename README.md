@@ -2,7 +2,6 @@
 
 Check your file hash to verify file integrity.
 
-
 ## Features
 - Modes: 
     - Compare File Hash
@@ -17,7 +16,7 @@ Check your file hash to verify file integrity.
 - SHA-256
 - SHA-512
 
-## What is a hash?
+# What is a hash?
 Hashes can verify that a file has not been altered or corrupted. By comparing the hash of a file, we can ensure its integrity.
 
 ## Mode Description
@@ -45,3 +44,6 @@ You may consider generating file hashes when you want to verify its integrity **
 - Use `python main.py roesti` to run the app
 - For help, use `python main.py --help` to view available commands
     - For specific commands e.g. `python main.py generate-file-hash --help`
+
+## Libraries
+- **[Typer](https://github.com/fastapi/typer)** - Building CLI applications
